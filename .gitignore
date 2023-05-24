@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Local development settings
+.env
+venv/
+*.env
+*.venv
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs and backups
+*.log
+*.swp
+*~
+
+models/*
+!models/.gitkeep
+.rasa/
+.~*
+story_graph.dot
+
+actions/__pycache__/
